@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --cor1:#4F0005;
+    --cor2:#9C1019;
+    --cor3:#4F4D08;
+    --cor4:#08364F;
+    --cor5:#08689C;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+/* Cabeçalho */
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > a {
+    text-decoration: none;
+    color: var(--cor1);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 25px;
+}
+nav > a:hover{
+    font-size: 25px;
+    border-bottom: 2px solid var(--cor1);
+    border-top: 2px solid var(--cor1);
+    transition: 0.7s;
+}
+
+/* MEIO */
+.part1{
+    width:500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    margin-bottom: 100px;
+}
+#titulo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    color: var(--cor1);
+}
+.botao1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor1);
+    text-decoration: none;
+    border-radius: 10px;
+    border: 3px solid var(--cor1);
+}
+.botao1:hover{
+    background-color: var(--cor1);
+    color: white;
+    transition: 0.7s;
+}
+/*MEIO 2 */
+
+.part2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4F0005;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    text-indent: 20px;
+    padding: 100px 0px;
+}
+
+.part2 > div {
+    width: 300px;
+}
+
+/*BAIXO*/
+.part3 {
+    background-color: var(--cor3);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 50px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    width: 650px;
+}
+
+/*ASIDE*/
+.part4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color:var(--cor1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0px;
+    gap: 50px;
+}
+.botao2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 50px;
+    color: var(--cor1);
+    text-decoration: none;
+    border: 3px solid var(--cor1);
+}
+.botao2:hover{
+    background-color: var(--cor1);
+    color: white;
+    transition: 0.7s;
+}
+/*FOOTER*/
+footer{
+    background-color: var(--cor1);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div > a{
+    text-decoration: none;
+}
